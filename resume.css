@@ -1,0 +1,106 @@
+.header {
+    background-color: #FA163F;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Ga Maamli", sans-serif;
+    border: 7px ridge black;
+}
+
+html {
+    background-color: #E4F9FF;
+}
+
+body {
+    background-color: #E4F9FF;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    color: white;
+    font-size: 21px;
+}
+
+.breakaway {
+    max-height: 450px;
+    max-width: 450px;
+    height: auto;
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+#summary {
+    background-color: #0FABBC;
+    float: left;
+    margin: 425px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    border: groove red 6px;
+}
+
+#education {
+    background-color: #0FABBC;
+    float: right;
+    margin: 425px;
+    font-size: 32px;
+    margin-top: -350px;
+    margin-right: 10px;
+    padding: 10px;
+    border: groove red 6px;
+}
+
+#experience {
+    background-color: #0FABBC;
+    float: left;
+    margin: 425px;
+    font-size: 32px;
+    margin-top: -350px;
+    margin-left: 10px;
+    padding: 10px;
+    border: groove red 6px;
+}
+
+#skills {
+    background-color: #0FABBC;
+    float: right;
+    margin: 500px;
+    font-size: 32px;
+    margin-top: -350px;
+    margin-right: 100px;
+    padding: 10px;
+    border: groove red 6px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.selfie {
+    max-height: 500px;
+    max-width: 250px;
+    height: auto;
+    width: 100%;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    
+}
+
+.links {
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+h2, h3, ul {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #0FABBC;
+}
+

@@ -1,0 +1,46 @@
+.ga-maamli-regular {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+#header {
+    background-color: #BE3144;
+    color: white;
+    text-align: center;
+    font-family: "Ga Maamli", sans-serif;
+    border: 10px groove #22070c;
+    padding: 1px;
+}
+
+html {
+    background-color: #22092C;
+}
+
+body {
+    background-color: #22092C;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    color: white;
+    font-size: 21px;
+}
+
+#update {
+    background-color: #872341;
+    border: ridge 10px #22070c;
+}
+
+.box {
+    background-color: #872341;
+    border: ridge 10px #22070c;
+}
+
+.links {
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
