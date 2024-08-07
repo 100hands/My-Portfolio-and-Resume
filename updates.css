@@ -41,6 +41,10 @@ body {
 .links {
     text-align: center;
     text-decoration: underline;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 
+.credit {
+    text-align: center;
+}
