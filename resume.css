@@ -28,6 +28,7 @@ body {
     width: 100%;
     float: left;
     padding: 10px;
+    object-fit: contain;
 }
 
 #summary {
@@ -87,7 +88,7 @@ body {
     margin-right: 100px;
     margin-bottom: 10px;
     margin-top: -50px;
-    
+    object-fit: contain;
 }
 
 .links {
@@ -104,3 +105,30 @@ footer {
     background-color: #0FABBC;
 }
 
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .header {
+        font-size: 40px;
+        height: auto;
+    }
+
+    .breakaway, .selfie {
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    #summary, #education, #experience, #skills {
+        margin: 10px 0;
+        font-size: 24px;
+        padding: 10px;
+        float: none;
+        width: auto;
+    }
+}
