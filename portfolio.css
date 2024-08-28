@@ -1,0 +1,117 @@
+nav {
+    text-align: center;
+}
+
+body {
+    background-image: url(./portfolio\ backg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+hr, br {
+    border-top: 6px ridge #262624;
+}
+
+.projects {
+    text-align: center;
+}
+
+.birthday-project  {
+    height: 400px;
+}
+
+.movie-list {
+    height: 400px;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #B86AD9;
+}
+
+/* Styles for mobile phones */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header h2 {
+        font-size: 18px;
+    }
+
+    .projects h2 {
+        font-size: 18px;
+    }
+
+    .birthday-project, .movie-list {
+        height: auto;
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+}
+
+/* Styles for tablets and larger screens */
+@media (min-width: 768px) {
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .header h2 {
+        font-size: 24px;
+    }
+
+    .projects h2 {
+        font-size: 24px;
+    }
+
+    .birthday-project, .movie-list {
+        height: 300px;
+        max-width: 80%;
+    }
+
+    footer {
+        font-size: 22px;
+    }
+}
+
+/* Styles for desktops and larger screens */
+@media (min-width: 1024px) {
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .header h2 {
+        font-size: 28px;
+    }
+
+    .projects h2 {
+        font-size: 28px;
+    }
+
+    .birthday-project, .movie-list {
+        height: 400px;
+        max-width: 600px;
+    }
+
+    footer {
+        font-size: 25px;
+    }
+}

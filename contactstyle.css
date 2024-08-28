@@ -1,0 +1,59 @@
+nav, .links {
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#header {
+    background-color: #070553;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Ga Maamli", sans-serif;
+    border: 10px groove #9290C3;
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    color: #9290C3;
+    padding: 5px 0;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #9290C3;
+    text-decoration: underline;
+}
+
+
+.borderline {
+    border-color: #9290C3;
+    background-color: #9290C3;
+    border-style: solid;
+    height: 5px;
+}
+
+h1, h2, h3, h4, p {
+    color: #9290C3;
+}
+
+.contactbox {
+    background-color: #070553;
+    border: groove 10px #9290C3;
+}
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    background-color: #070553;
+    border: groove 10px #9290C3;
+}
+
+.links {
+    margin-right: 10px;
+}
+
+.link-box {
+    margin-top: 20px;
+}

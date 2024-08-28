@@ -1,0 +1,87 @@
+.ga-maamli-regular {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  html {
+    background-color: #3B3B3B;
+  }
+
+#header {
+    background-color: #E0E0E0;
+    color: #141414;
+    text-align: center;
+    font-family: "Ga Maamli", sans-serif;
+    border: 10px ridge #A0A0A0;
+    padding: 1px;
+}
+
+body {
+    background-color: #3B3B3B;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    color: #141414;
+    font-size: 21px;
+}
+
+#update {
+    background-color: #E0E0E0;
+    border: ridge 10px #A0A0A0;
+}
+
+.box {
+    background-color: #E0E0E0;
+    border: ridge 10px #A0A0A0;
+}
+
+.links, .box {
+    color: #141414;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+p {
+    text-align: center;
+}
+.credit {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    #header {
+        font-size: 36px;
+        padding: 10px;
+        border-width: 5px;
+    }
+
+    #update {
+        margin-right: 10px;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .box {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .links {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .credit {
+        font-size: 14px;
+    }
+}

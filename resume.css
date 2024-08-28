@@ -1,0 +1,144 @@
+.header {
+    background-color: #4B4846;
+    color: #EDEDED;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Ga Maamli", sans-serif;
+    border: 7px ridge #B08968;
+}
+
+html {
+    background-color: #2C2C2C;
+}
+
+body {
+    height: 500px;
+    background-color: #2C2C2C;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    color: #EDEDED;
+    font-size: 21px;
+}
+
+.breakaway {
+    border-radius: 50%;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    object-fit: contain;
+}
+
+#summary {
+    background-color: #4B4846;
+    float: left;
+    margin: 425px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    border: groove #B08968 6px;
+}
+
+#education {
+    background-color: #4B4846;
+    float: right;
+    margin: 425px;
+    font-size: 32px;
+    margin-top: -350px;
+    margin-right: 10px;
+    padding: 10px;
+    border: groove #B08968 6px;
+}
+
+#experience {
+    background-color: #4B4846;
+    float: left;
+    margin: 425px;
+    font-size: 32px;
+    margin-top: -350px;
+    margin-left: 10px;
+    padding: 10px;
+    border: groove #B08968 6px;
+}
+
+#skills {
+    background-color: #4B4846;
+    float: right;
+    margin: 300px;
+    font-size: 32px;
+    margin-top: -350px;
+    margin-right: 100px;
+    padding: 10px;
+    border: groove #B08968 6px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.selfie {
+    align-items: center;
+    max-height: 200px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+#links {
+    text-decoration: none;
+    color: #A04000;
+}
+
+.links {
+    text-align: center;
+    margin-right: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-position: inside; /* Ensures bullets are inside the content box */
+    padding-left: 0; /* Removes any default padding */
+}
+
+ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border: ridge #B08968 6px;
+    background-color: #4B4846;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .header {
+        font-size: 40px;
+        height: auto;
+    }
+
+    .breakaway, .selfie {
+        max-width: 100%;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    #summary, #education, #experience, #skills {
+        margin: 10px 0;
+        font-size: 24px;
+        padding: 10px;
+        float: none;
+        width: auto;
+    }
+}
